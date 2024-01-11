@@ -1,3 +1,10 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,12 +13,19 @@ body {
 
 header {
     background-color: #000000;
-    padding: 20px;
+    padding: 0px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
+    display:flex;
+    justify-content: space-around;
+}
+.logo {
+  margin-left: 155px;
+  margin-top: 94px;
+  position: absolute;
 }
 
 nav ul li {
@@ -24,8 +38,53 @@ nav ul li a {
     color: #333;
 }
 
+header {
+    height: 338px;
+}
+
 footer {
     background-color: #353535;
     padding: 20px;
     text-align: center;
 }
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border-width: 2px 2px 2px 2px;
+    border-color: white;
+    border-style: solid;
+    display:flex;
+    justify-content: space-around;
+    height: 112px;
+    width: 198px;
+  }
+  
+  .dropdown {
+    
+    width: 200px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 198px;
+    box-shadow: 0px 8px 16px 0px #010101;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block; 
+  }
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
