@@ -15,25 +15,33 @@ header {
     background-color: #000000;
     padding: 0px;
 }
+nav > ul > li{
+  
+  margin-top: 146px;
+  padding-right: 0px;
+  display: inline;
+    margin-right: 55px;
+}
 
-nav ul {
+nav{
+  margin-left: 155px;
+}
+.logo{
+  margin-top: -52px;
+
+}
+
+nav > ul {
     list-style-type: none;
     padding: 0px;
     display:flex;
-    justify-content: space-around;
-}
-.logo {
-  margin-left: 155px;
-  margin-top: 94px;
-  position: absolute;
+    justify-content:flex-start;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
 
-nav ul li a {
+
+
+nav > ul > li > a {
     text-decoration: none;
     color: #333;
 }
