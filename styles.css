@@ -28,6 +28,7 @@ nav{
 }
 .logo{
   margin-top: -52px;
+  margin-right: 41px;
 
 }
 
@@ -56,23 +57,53 @@ footer {
     text-align: center;
 }
 .dropbtn {
+  font-family: 'Merriweather', serif;
     background-color: #000000;
     color: white;
     padding: 0px;
-    font-size: 16px;
+    font-size: 33px;
     border-width: 2px 2px 2px 2px;
     border-color: white;
     border-style: solid;
-    display:flex;
-    justify-content: space-around;
     height: 112px;
     width: 198px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 10px;
   }
+
+  .dropbtnWhite {
+    font-family: 'Merriweather', serif;
+    background-color: white;
+    color: black;
+    padding: 0px;
+    font-size: 33px;
+    border-width: 2px 2px 2px 2px;
+    border-color: white;
+    border-style: solid;
+    height: 164px;
+    width: 298px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 10px;
+    margin-top:-52px;
+  }
+  .dropbtnWhite:hover{
+    background-color: grey;
+    cursor: pointer;
+  }
+
+  
+
+  
   
   .dropdown {
     
     width: 200px;
   }
+
   
   .dropdown-content {
     display: none;
@@ -96,3 +127,119 @@ footer {
   }
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  .toggle-button-cover {
+    display: table-cell;
+    position: relative;
+    width: 200px;
+    height: 140px;
+    box-sizing: border-box;
+    margin-left: 52px;
+    margin-right: 52px;
+  }
+  
+  .button-cover {
+    height: 100px;
+    margin: 20px;
+    
+    background-color: #fff;
+    box-shadow: 0 10px 20px -8px #c5d6d6;
+    border-radius: 4px;
+  }
+  
+  .button-cover:before {
+    counter-increment: button-counter;
+    content: counter(button-counter);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #d7e3e3;
+    font-size: 25px;
+    line-height: 1;
+    padding: 5px;
+  }
+  
+  .button-cover,
+  .knobs,
+  .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .button {
+    position: relative;
+    top: 100%;
+    width: 152px;
+    height: 66px;
+    overflow: hidden;
+    margin-top: 55px;
+    
+  }
+  
+  .checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .knobs {
+    z-index: 2;
+  }
+  
+  .layer {
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  
+  .button.r,
+  .button.r .layer {
+    border-radius: 100px;
+  }
+  
+  #button-3 .knobs:before {
+    content: "NL";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 50px;
+    height: 40px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3;
+    padding: 9px 4px;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 1.21, 0.35, 1.35);
+  }
+  
+  #button-3 .checkbox:active + .knobs:before {
+    width: 46px;
+    border-radius: 100px;
+  }
+  
+  #button-3 .checkbox:checked:active + .knobs:before {
+    margin-left: -26px;
+  }
+  
+  #button-3 .checkbox:checked + .knobs:before {
+    content: "EN";
+    left: 84px;
+    background-color: #03a9f4;
+  }
+  
+  #button-3 .checkbox:checked ~ .layer {
+    background-color: #fff;
+  }
