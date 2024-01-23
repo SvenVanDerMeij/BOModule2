@@ -5,7 +5,7 @@ let beweging = 0
 function setup() {
 
     createCanvas(windowWidth-(windowWidth*0.08), 650);
-    background("#333");
+    background("#111111");
     makesquares()
 }
 
@@ -19,11 +19,11 @@ function makesquares() {
 
     for (let k = 1; k < Math.round(windowWidth/400); k++) {
         for (let l = 0; l < 3; l++) {
-            fill('#000000');
+            fill('#FFFFFF');
             strokeWeight(2);
             stroke(200);
             rect(k * 400 - 45, l * 200 + 50, 160, 160)
-            fill('#FFFFFF');
+            fill('#000001');
             strokeWeight(0);
             stroke(0);
             text(titel[Math.round(Math.random() * 4)], k * 400 -35, l * 200 + 70)
@@ -39,11 +39,11 @@ function makesquares() {
         let shape3 = Math.round(Math.random())
         let ik = 155+ (i * 400)
         if (shape == 0) {
-            fill('#000000');
+            fill('#FFFFFF');
             strokeWeight(2);
             stroke(200);
             rect(ik, 50, 360, 160)
-            fill('#FFFFFF');
+            fill('#000001');
             strokeWeight(0);
             stroke(0);
             text(titel[Math.round(Math.random() * 4)], ik + 10, 70)
@@ -52,11 +52,11 @@ function makesquares() {
             text(inhoud[Math.round(Math.random() * 9)], ik + 10, 105, 340, 150)
             textSize(22);
             if (shape2 == 0) {
-                fill('#000000');
+                fill('#FFFFFF');
                 strokeWeight(2);
                 stroke(200);
                 rect(ik, 250, 360, 160)
-                fill('#FFFFFF');
+                fill('#000001');
                 strokeWeight(0);
                 stroke(0);
                 text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
@@ -65,11 +65,11 @@ function makesquares() {
                 text(inhoud[Math.round(Math.random() * 9)], ik + 10, 305, 340, 150)
                 textSize(22);
                 if (shape3 == 0) {
-                    fill('#000000');
+                    fill('#FFFFFF');
                     strokeWeight(2);
                     stroke(200);
                     rect(ik, 450, 360, 160)
-                    fill('#FFFFFF');
+                    fill('#000001');
                     strokeWeight(0);
                     stroke(0);
                     text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
@@ -78,11 +78,11 @@ function makesquares() {
                     text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                     textSize(22);
                 } else if (shape3 == 1) {
-                    fill('#000000');
+                    fill('#FFFFFF');
                     strokeWeight(2);
                     stroke(200);
                     rect(ik, 450, 160, 160)
-                    fill('#FFFFFF');
+                    fill('#000001');
                     strokeWeight(0);
                     stroke(0);
                     text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
@@ -92,11 +92,11 @@ function makesquares() {
             textSize(22);
                 }
             } else if (shape2 == 1) {
-                fill('#000000');
+                fill('#FFFFFF');
                 strokeWeight(2);
                 stroke(200);
                 rect(ik, 250, 160, 160)
-                fill('#FFFFFF');
+                fill('#000001');
                 strokeWeight(0);
                 stroke(0);
                 text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
@@ -105,11 +105,11 @@ function makesquares() {
             text(inhoud[Math.round(Math.random() * 9)], ik + 10, 305, 140, 150)
             textSize(22);
                 if (shape3 == 0) {
-                    fill('#000000');
+                    fill('#FFFFFF');
                     strokeWeight(2);
                     stroke(200);
                     rect(ik, 450, 360, 160)
-                    fill('#FFFFFF');
+                    fill('#000001');
                     strokeWeight(0);
                     stroke(0);
                     text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
@@ -118,11 +118,11 @@ function makesquares() {
                     text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                     textSize(22);
                 } else if (shape3 == 1) {
-                    fill('#000000');
+                    fill('#FFFFFF');
                     strokeWeight(2);
                     stroke(200);
                     rect(ik, 450, 160, 160)
-                    fill('#FFFFFF');
+                    fill('#000001');
                     strokeWeight(0);
                     stroke(0);
                     text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
@@ -133,11 +133,11 @@ function makesquares() {
                 }
             }
             else if (shape2 == 2) {
-                fill('#000000');
+                fill('#FFFFFF');
                 strokeWeight(2);
                 stroke(200);
                 rect(ik, 250, 160, 360)
-                fill('#FFFFFF');
+                fill('#000001');
                 strokeWeight(0);
                 stroke(0);
                 text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
@@ -147,11 +147,11 @@ function makesquares() {
                 textSize(22);
             }
         } else if (shape == 1) {
-            fill('#000000');
+            fill('#FFFFFF');
             strokeWeight(2);
             stroke(200);
             rect(ik, 50, 160, 160)
-            fill('#FFFFFF');
+            fill('#000001');
             strokeWeight(0);
             stroke(0);
             text(titel[Math.round(Math.random() * 4)], ik + 10, 70)
@@ -160,11 +160,11 @@ function makesquares() {
             text(inhoud[Math.round(Math.random() * 9)], ik + 10, 105, 140, 150)
             textSize(22);
             if (shape2 == 0) {
-                fill('#000000');
+                fill('#FFFFFF');
                 strokeWeight(2);
                 stroke(200);
                 rect(ik, 250, 360, 160)
-                fill('#FFFFFF');
+                fill('#000001');
                 strokeWeight(0);
                 stroke(0);
                 text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
@@ -173,11 +173,11 @@ function makesquares() {
                 text(inhoud[Math.round(Math.random() * 7)], ik + 10, 305, 340, 150)
                 textSize(22);
                 if (shape3 == 0) {
-                    fill('#000000');
+                    fill('#FFFFFF');
                     strokeWeight(2);
                     stroke(200);
                     rect(ik, 450, 360, 160)
-                    fill('#FFFFFF');
+                    fill('#000001');
                     strokeWeight(0);
                     stroke(0);
                     text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
@@ -186,11 +186,11 @@ function makesquares() {
                     text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                     textSize(22);
                 } else if (shape3 == 1) {
-                    fill('#000000');
+                    fill('#FFFFFF');
                     strokeWeight(2);
                     stroke(200);
                     rect(ik, 450, 160, 160)
-                    fill('#FFFFFF');
+                    fill('#000001');
                     strokeWeight(0);
                     stroke(0);
                     text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
@@ -200,11 +200,11 @@ function makesquares() {
             textSize(22);
                 }
             } else if (shape2 == 1) {
-                fill('#000000');
+                fill('#FFFFFF');
                 strokeWeight(2);
                 stroke(200);
                 rect(ik, 250, 160, 160)
-                fill('#FFFFFF');
+                fill('#000001');
                 strokeWeight(0);
                 stroke(0);
                 text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
@@ -213,11 +213,11 @@ function makesquares() {
             text(inhoud[Math.round(Math.random() * 9)], ik + 10, 305, 140, 150)
             textSize(22);
                 if (shape3 == 0) {
-                    fill('#000000');
+                    fill('#FFFFFF');
                     strokeWeight(2);
                     stroke(200);
                     rect(ik, 450, 360, 160)
-                    fill('#FFFFFF');
+                    fill('#000001');
                     strokeWeight(0);
                     stroke(0);
                     text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
@@ -226,11 +226,11 @@ function makesquares() {
                     text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                     textSize(22);
                 } else if (shape3 == 1) {
-                    fill('#000000');
+                    fill('#FFFFFF');
                     strokeWeight(2);
                     stroke(200);
                     rect(ik, 450, 160, 160)
-                    fill('#FFFFFF');
+                    fill('#000001');
                     strokeWeight(0);
                     stroke(0);
                     text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
@@ -241,11 +241,11 @@ function makesquares() {
                 }
             }
             else if (shape2 == 2) {
-                fill('#000000');
+                fill('#FFFFFF');
                 strokeWeight(2);
                 stroke(200);
                 rect(ik, 250, 160, 360)
-                fill('#FFFFFF');
+                fill('#000001');
                 strokeWeight(0);
                 stroke(0);
                 text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
@@ -255,11 +255,11 @@ function makesquares() {
                 textSize(22);
             }
         } else if (shape == 2) {
-            fill('#000000');
+            fill('#FFFFFF');
             strokeWeight(2);
             stroke(200);
             rect(ik, 50, 160, 360)
-            fill('#FFFFFF');
+            fill('#000001');
             strokeWeight(0);
             stroke(0);
             text(titel[Math.round(Math.random() * 4)], ik + 10, 70)
@@ -268,11 +268,11 @@ function makesquares() {
                 text(inhoud[Math.round(Math.random() * 9)], ik + 10, 105, 140, 350)
                 textSize(22);
             if (shape3 == 0) {
-                fill('#000000');
+                fill('#FFFFFF');
                 strokeWeight(2);
                 stroke(200);
                 rect(ik, 450, 360, 160)
-                fill('#FFFFFF');
+                fill('#000001');
                 strokeWeight(0);
                 stroke(0);
                 text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
@@ -281,11 +281,11 @@ function makesquares() {
                 text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                 textSize(22);
             } else if (shape3 == 1) {
-                fill('#000000');
+                fill('#FFFFFF');
                 strokeWeight(2);
                 stroke(200);
                 rect(ik, 450, 160, 160)
-                fill('#FFFFFF');
+                fill('#000001');
                 strokeWeight(0);
                 stroke(0);
                 text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
