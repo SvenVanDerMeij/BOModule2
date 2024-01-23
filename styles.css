@@ -75,10 +75,34 @@ header {
 }
 
 footer {
-    background-color: #353535;
-    padding: 20px;
-    text-align: center;
-}
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+ 
+  
+ }
+ 
+ .footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
+ 
+ .footer-section {
+  flex-basis: 20%;
+  margin-bottom: 20px;
+ }
+ 
+ .opening-hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
+ }
+ 
+ 
+
 .dropbtn {
   font-family: 'Merriweather', serif;
     background-color: #000000;
