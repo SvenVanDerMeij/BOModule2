@@ -12,9 +12,25 @@ body {
   line-height: 1.6;
   background: rgb(19,18,18);
 }
-
+.past-expo{
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 70px;
+  font-size: 60px;
+  
+}
+.Review-header {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  border-top: solid rgb(164, 164, 164);
+  
+  
+}
 header {
-  background-color: #000000;
+  background-color: #131212;
   padding-bottom: 50px;
   height: 200px;
  
@@ -58,7 +74,7 @@ a{
 
 
 .background {
-  background: linear-gradient(0deg, rgba(19,18,18,1) 0%, rgba(19,18,18,0) 15%, rgba(19,18,18,0) 49%, rgba(19,18,18,0) 88%, rgba(19,18,18,1) 100%), url("historyOverview.png") no-repeat center center fixed;
+  background: linear-gradient(0deg, rgba(19,18,18,1) 10%, rgba(19,18,18,0) 15%, rgba(19,18,18,0) 49%, rgba(19,18,18,0) 90%, rgba(19,18,18,1) 100%), url("historyOverview.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
