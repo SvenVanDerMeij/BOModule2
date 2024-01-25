@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .engels {
-  display: fixed;
+  display: none;
 }
 
 body {
@@ -45,6 +45,12 @@ nav>ul>li {
 
   display: flex;
   align-items: flex-end;
+ 
+}
+a{
+  z-index: 999999999999999999999999999999999999999999999999999999;
+  text-decoration: none;
+  color: white;
 }
 
 
