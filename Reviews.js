@@ -26,10 +26,10 @@ function makesquares() {
             fill('#000001');
             strokeWeight(0);
             stroke(0);
-            text(titel[Math.round(Math.random() * 4)], k * 400 -35, l * 200 + 70)
-            text(rating[Math.round(Math.random() * 4)], k * 400 -35, l * 200 + 95)
+            text(titel[Math.round(Math.random() * (titel.length-1))], k * 400 -35, l * 200 + 70)
+            text(rating[Math.round(Math.random() * (rating.length-1))], k * 400 -35, l * 200 + 95)
             textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], k * 400 - 35, l * 200 + 105, 140, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], k * 400 - 35, l * 200 + 105, 140, 150)
             textSize(22);
         }
     }
@@ -46,10 +46,10 @@ function makesquares() {
             fill('#000001');
             strokeWeight(0);
             stroke(0);
-            text(titel[Math.round(Math.random() * 4)], ik + 10, 70)
-            text(rating[Math.round(Math.random() * 4)], ik + 10, 95)
+            text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 70)
+            text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 95)
             textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], ik + 10, 105, 340, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 105, 340, 150)
             textSize(22);
             if (shape2 == 0) {
                 fill('#FFFFFF');
@@ -59,10 +59,10 @@ function makesquares() {
                 fill('#000001');
                 strokeWeight(0);
                 stroke(0);
-                text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
-                text(rating[Math.round(Math.random() * 4)], ik + 10, 295)
+                text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 270)
+                text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 295)
                 textSize(15);
-                text(inhoud[Math.round(Math.random() * 9)], ik + 10, 305, 340, 150)
+                text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 305, 340, 150)
                 textSize(22);
                 if (shape3 == 0) {
                     fill('#FFFFFF');
@@ -72,8 +72,8 @@ function makesquares() {
                     fill('#000001');
                     strokeWeight(0);
                     stroke(0);
-                    text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                    text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                    text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                    text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                     textSize(15);
                     text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                     textSize(22);
@@ -85,10 +85,10 @@ function makesquares() {
                     fill('#000001');
                     strokeWeight(0);
                     stroke(0);
-                    text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                    text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                    text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                    text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                     textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], ik + 10, 505, 140, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 505, 140, 150)
             textSize(22);
                 }
             } else if (shape2 == 1) {
@@ -99,10 +99,10 @@ function makesquares() {
                 fill('#000001');
                 strokeWeight(0);
                 stroke(0);
-                text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
-                text(rating[Math.round(Math.random() * 4)], ik + 10, 295)
+                text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 270)
+                text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 295)
                 textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], ik + 10, 305, 140, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 305, 140, 150)
             textSize(22);
                 if (shape3 == 0) {
                     fill('#FFFFFF');
@@ -112,8 +112,8 @@ function makesquares() {
                     fill('#000001');
                     strokeWeight(0);
                     stroke(0);
-                    text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                    text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                    text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                    text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                     textSize(15);
                     text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                     textSize(22);
@@ -125,10 +125,10 @@ function makesquares() {
                     fill('#000001');
                     strokeWeight(0);
                     stroke(0);
-                    text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                    text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                    text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                    text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                     textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], ik + 10, 505, 140, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 505, 140, 150)
             textSize(22);
                 }
             }
@@ -140,10 +140,10 @@ function makesquares() {
                 fill('#000001');
                 strokeWeight(0);
                 stroke(0);
-                text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
-                text(rating[Math.round(Math.random() * 4)], ik + 10, 295)
+                text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 270)
+                text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 295)
                 textSize(15);
-                text(inhoud[Math.round(Math.random() * 9)], ik + 10, 305, 140, 350)
+                text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 305, 140, 350)
                 textSize(22);
             }
         } else if (shape == 1) {
@@ -154,10 +154,10 @@ function makesquares() {
             fill('#000001');
             strokeWeight(0);
             stroke(0);
-            text(titel[Math.round(Math.random() * 4)], ik + 10, 70)
-            text(rating[Math.round(Math.random() * 4)], ik + 10, 95)
+            text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 70)
+            text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 95)
             textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], ik + 10, 105, 140, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 105, 140, 150)
             textSize(22);
             if (shape2 == 0) {
                 fill('#FFFFFF');
@@ -167,8 +167,8 @@ function makesquares() {
                 fill('#000001');
                 strokeWeight(0);
                 stroke(0);
-                text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
-                text(rating[Math.round(Math.random() * 4)], ik + 10, 295)
+                text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 270)
+                text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 295)
                 textSize(15);
                 text(inhoud[Math.round(Math.random() * 7)], ik + 10, 305, 340, 150)
                 textSize(22);
@@ -180,8 +180,8 @@ function makesquares() {
                     fill('#000001');
                     strokeWeight(0);
                     stroke(0);
-                    text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                    text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                    text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                    text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                     textSize(15);
                     text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                     textSize(22);
@@ -193,10 +193,10 @@ function makesquares() {
                     fill('#000001');
                     strokeWeight(0);
                     stroke(0);
-                    text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                    text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                    text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                    text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                     textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], ik + 10, 505, 140, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 505, 140, 150)
             textSize(22);
                 }
             } else if (shape2 == 1) {
@@ -207,10 +207,10 @@ function makesquares() {
                 fill('#000001');
                 strokeWeight(0);
                 stroke(0);
-                text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
-                text(rating[Math.round(Math.random() * 4)], ik + 10, 295)
+                text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 270)
+                text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 295)
                 textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], ik + 10, 305, 140, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 305, 140, 150)
             textSize(22);
                 if (shape3 == 0) {
                     fill('#FFFFFF');
@@ -220,8 +220,8 @@ function makesquares() {
                     fill('#000001');
                     strokeWeight(0);
                     stroke(0);
-                    text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                    text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                    text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                    text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                     textSize(15);
                     text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                     textSize(22);
@@ -233,10 +233,10 @@ function makesquares() {
                     fill('#000001');
                     strokeWeight(0);
                     stroke(0);
-                    text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                    text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                    text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                    text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                     textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], ik + 10, 505, 140, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 505, 140, 150)
             textSize(22);
                 }
             }
@@ -248,10 +248,10 @@ function makesquares() {
                 fill('#000001');
                 strokeWeight(0);
                 stroke(0);
-                text(titel[Math.round(Math.random() * 4)], ik + 10, 270)
-                text(rating[Math.round(Math.random() * 4)], ik + 10, 295)
+                text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 270)
+                text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 295)
                 textSize(15);
-                text(inhoud[Math.round(Math.random() * 9)], ik + 10, 305, 140, 350)
+                text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 305, 140, 350)
                 textSize(22);
             }
         } else if (shape == 2) {
@@ -262,10 +262,10 @@ function makesquares() {
             fill('#000001');
             strokeWeight(0);
             stroke(0);
-            text(titel[Math.round(Math.random() * 4)], ik + 10, 70)
-            text(rating[Math.round(Math.random() * 4)], ik + 10, 95)
+            text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 70)
+            text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 95)
             textSize(15);
-                text(inhoud[Math.round(Math.random() * 9)], ik + 10, 105, 140, 350)
+                text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 105, 140, 350)
                 textSize(22);
             if (shape3 == 0) {
                 fill('#FFFFFF');
@@ -275,8 +275,8 @@ function makesquares() {
                 fill('#000001');
                 strokeWeight(0);
                 stroke(0);
-                text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                 textSize(15);
                 text(inhoud[Math.round(Math.random() * 7)], ik + 10, 505, 340, 150)
                 textSize(22);
@@ -288,10 +288,10 @@ function makesquares() {
                 fill('#000001');
                 strokeWeight(0);
                 stroke(0);
-                text(titel[Math.round(Math.random() * 4)], ik + 10, 470)
-                text(rating[Math.round(Math.random() * 4)], ik + 10, 495)
+                text(titel[Math.round(Math.random() * (titel.length-1))], ik + 10, 470)
+                text(rating[Math.round(Math.random() * (rating.length-1))], ik + 10, 495)
                 textSize(15);
-            text(inhoud[Math.round(Math.random() * 9)], ik + 10, 505, 140, 150)
+            text(inhoud[Math.round(Math.random() * (inhoud.length-1))], ik + 10, 505, 140, 150)
             textSize(22);
             }
         }
